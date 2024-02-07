@@ -33,7 +33,7 @@ fullnameOverride: ""
 
 operator:
   # -- namespace to install the operator, defaults to the .Release.Namespace
-  namespace: "trivy"
+  namespace: "trivy-system"
   # -- replicas the number of replicas of the operator's pod
   replicas: 1
 
