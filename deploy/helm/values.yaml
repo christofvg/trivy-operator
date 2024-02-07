@@ -212,10 +212,10 @@ trivyOperator:
   #   effect: "NoSchedule"
 
   # -- scanJobNodeSelector nodeSelector to be applied to the scanner pods so that they can run on nodes with matching labels
-  scanJobNodeSelector: {}
+  scanJobNodeSelector:
   # -- If you do want to specify nodeSelector, uncomment the following lines, adjust them as necessary, and remove the
   # square brackets after 'scanJobNodeSelector:'.
-  #   nodeType: worker
+    nodeType: worker
   #   cpu: sandylake
   #   teamOwner: operators
 
